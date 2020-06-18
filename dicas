@@ -1,0 +1,41 @@
+//criar projeto json
+npm init -y
+//npm install
+
+//instalar banco
+npm i json-server
+
+//criar arquivo no backend
+db.json
+==> Criar os objetos do banco
+
+//alterar script em package.json
+"scripts": {
+    "start": "json-server --watch db.json --port 3001"
+
+//subir o serviço json
+json-server --watch db.json ou npm start
+https://www.fabricadecodigo.com/json-server/
+
+//testar no postman
+
+//instalar as dependencias do angular
+npm i -g @angular/cli
+
+//criar o projeto
+ng new minha-app --minimal (--minimal instala o básico)
+npm start
+
+//fazer alteração linha 10
+angular.json 
+//inlinetemplate: false
+//inlinestyle: false
+
+//instalar material design
+ng add @angular/material
+
+//criar um component
+ng g c components/template/header
+
+//criar ums service
+ng g s service/product
